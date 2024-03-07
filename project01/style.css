@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;;
+}
+:root{
+  --precoBotao: #febe01;
+  --colorBotao: #332200;
+  --preto: #111;
+  --cinza:#b2b2b2
+}
+
+.carro, .bike{
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+
+
+}
+
+h1{
+  text-align: center;
+  
+}
+
+p{
+  color: var(--cinza);
+}
+span{
+  color: var(--precoBotao);
+}
+a{
+  padding: 20px;
+  background: var(--precoBotao);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--preto);
+  display: inline-block;
+}
